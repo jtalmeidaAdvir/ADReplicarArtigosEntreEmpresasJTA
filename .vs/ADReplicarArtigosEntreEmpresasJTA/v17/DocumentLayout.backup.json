@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|c:\\users\\jtalm\\source\\repos\\adreplicarartigosentreempresasjta\\adreplicarartigosentreempresasjta\\base\\editordevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editordevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\adreplicarartigosentreempresasjta\\base\\editorartigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editorartigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditorDeVendas.cs",
+              "DocumentMoniker": "C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorDeVendas.cs",
+              "RelativeDocumentMoniker": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorDeVendas.cs",
+              "ToolTip": "C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorDeVendas.cs*",
+              "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorDeVendas.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:40:28.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditorArtigos.cs",
+              "DocumentMoniker": "C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
+              "RelativeDocumentMoniker": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
+              "ToolTip": "C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
+              "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwDQAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:47:13.13Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
