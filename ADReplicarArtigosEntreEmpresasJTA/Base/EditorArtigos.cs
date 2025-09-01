@@ -18,6 +18,7 @@ namespace ADReplicarArtigosEntreEmpresasJTA.Base
     {
         public override void DepoisDeGravar(string Artigo, ExtensibilityEventArgs e)
         {
+            MessageBox.Show("TEste");
 
             BasBEArtigoMoeda ArtigoMoedaExportar;
             try
@@ -32,7 +33,11 @@ namespace ADReplicarArtigosEntreEmpresasJTA.Base
 
             try
             {
-                BSO.AbreEmpresaTrabalho(StdBE100.StdBETipos.EnumTipoPlataforma.tpEvolution, "BRIOSA", "Cegid", "Advir2506");
+                var nome2 = BSO.Contexto.UtilizadorActual;
+
+                var pas2 = BSO.Contexto.PasswordUtilizadorActual;
+
+                BSO.AbreEmpresaTrabalho(StdBE100.StdBETipos.EnumTipoPlataforma.tpEvolution, "BRIOSA", nome2, pas2);
                 var ExiteArtigo = BSO.Base.Artigos.Existe(Artigo);
                 if (ExiteArtigo)
                 {
@@ -48,10 +53,12 @@ namespace ADReplicarArtigosEntreEmpresasJTA.Base
             {
                 MessageBox.Show("Erro ao atualizar artigo: " + ex.Message);
             }
-
-
-            BSO.AbreEmpresaTrabalho(StdBE100.StdBETipos.EnumTipoPlataforma.tpEvolution, "CASAPEDOME", "Cegid", "Advir2506");
-
+            var nome = BSO.Contexto.UtilizadorActual;
+      
+            var pas = BSO.Contexto.PasswordUtilizadorActual;
+            BSO.FechaEmpresaTrabalho();
+      
+            BSO.AbreEmpresaTrabalho(StdBE100.StdBETipos.EnumTipoPlataforma.tpEvolution, "CASAPEDOME", nome, pas);
 
 
         }
@@ -81,5 +88,11 @@ namespace ADReplicarArtigosEntreEmpresasJTA.Base
 
             BSO.Base.ArtigosPrecos.Actualiza(ArtigoMoeda);
         }
+
+        public override void DepoisDeAnular(string Artigo, ExtensibilityEventArgs e)
+        {
+
+        }
+
     }
 }
