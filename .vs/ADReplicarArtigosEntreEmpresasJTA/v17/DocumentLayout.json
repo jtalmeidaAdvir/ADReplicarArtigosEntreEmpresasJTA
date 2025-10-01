@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|c:\\users\\jtalm\\desktop\\casapedome\\adreplicarartigosentreempresasjta\\adreplicarartigosentreempresasjta\\base\\editorfamilias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editorfamilias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\adreplicarartigosentreempresasjta\\base\\editorartigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editorartigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|c:\\users\\jtalm\\desktop\\casapedome\\adreplicarartigosentreempresasjta\\adreplicarartigosentreempresasjta\\base\\editorartigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editorartigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|c:\\users\\jtalm\\desktop\\casapedome\\adreplicarartigosentreempresasjta\\adreplicarartigosentreempresasjta\\base\\editorfamilias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editorfamilias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\adreplicarartigosentreempresasjta\\base\\editordevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditorFamilias.cs",
-              "DocumentMoniker": "C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
-              "RelativeDocumentMoniker": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
-              "ToolTip": "C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
-              "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T15:50:04.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "EditorArtigos.cs",
               "DocumentMoniker": "C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
               "RelativeDocumentMoniker": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
               "ToolTip": "C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
               "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T15:47:13.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditorFamilias.cs",
+              "DocumentMoniker": "C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
+              "RelativeDocumentMoniker": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
+              "ToolTip": "C:\\Users\\jtalm\\Desktop\\CASAPEDOME\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
+              "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:50:04.94Z",
               "EditorCaption": ""
             },
             {

@@ -18,7 +18,6 @@ namespace ADReplicarArtigosEntreEmpresasJTA.Base
     {
         public override void DepoisDeGravar(string Artigo, ExtensibilityEventArgs e)
         {
-            MessageBox.Show("TEste");
 
             BasBEArtigoMoeda ArtigoMoedaExportar;
             try
