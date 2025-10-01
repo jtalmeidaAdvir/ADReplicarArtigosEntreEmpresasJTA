@@ -93,6 +93,7 @@
   <ItemGroup>
     <Compile Include="Base\EditorArtigos.cs" />
     <Compile Include="Base\EditorDeVendas.cs" />
+    <Compile Include="Base\EditorFamilias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
