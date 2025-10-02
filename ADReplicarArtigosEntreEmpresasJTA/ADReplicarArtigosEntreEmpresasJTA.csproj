@@ -39,6 +39,9 @@
       <HintPath>..\..\..\..\..\..\Program Files\PRIMAVERA\SG100\APL\ErpBS100.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ErpDS100">
+      <HintPath>..\..\..\..\..\..\Program Files\PRIMAVERA\SG100\Apl\ErpDS100.dll</HintPath>
+    </Reference>
     <Reference Include="IBasBS100">
       <HintPath>..\..\..\..\..\..\Program Files\PRIMAVERA\SG100\APL\IBasBS100.dll</HintPath>
       <Private>False</Private>
@@ -93,6 +96,7 @@
   <ItemGroup>
     <Compile Include="Base\EditorArtigos.cs" />
     <Compile Include="Base\EditorDeVendas.cs" />
+    <Compile Include="Base\EditorFamilias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

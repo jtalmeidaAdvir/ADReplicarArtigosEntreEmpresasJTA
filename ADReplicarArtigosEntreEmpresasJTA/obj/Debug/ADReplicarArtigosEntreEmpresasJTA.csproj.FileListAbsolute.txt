@@ -4,3 +4,5 @@ C:\Users\jtalm\source\repos\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosE
 C:\Users\jtalm\source\repos\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplicarArtigosEntreEmpresasJTA.csproj.CoreCompileInputs.cache
 C:\Users\jtalm\source\repos\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplicarArtigosEntreEmpresasJTA.dll
 C:\Users\jtalm\source\repos\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplicarArtigosEntreEmpresasJTA.pdb
+C:\Users\jtalm\source\repos\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\bin\Debug\ErpDS100.dll
+C:\Users\jtalm\source\repos\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplic.D1786865.Up2Date
