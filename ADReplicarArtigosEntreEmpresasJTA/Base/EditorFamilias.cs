@@ -2,6 +2,7 @@ using BasBE100;
 using Primavera.Extensibility.Base.Editors;
 using Primavera.Extensibility.BusinessEntities;
 using Primavera.Extensibility.BusinessEntities.ExtensibilityService.EventArgs;
+using Primavera.Extensibility.Integration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,63 +17,26 @@ namespace ADReplicarArtigosEntreEmpresasJTA.Base
     {
         public override void DepoisDeGravar(string Familia, ExtensibilityEventArgs e)
         {
-            base.DepoisDeGravar(Familia, e);
-
             try
             {
-                var nome2 = BSO.Contexto.UtilizadorActual;
-                var pas2 = BSO.Contexto.PasswordUtilizadorActual;
-
-                // Abrir empresa BRIOSA para replicar a família
-                BSO.AbreEmpresaTrabalho(StdBE100.StdBETipos.EnumTipoPlataforma.tpEvolution, "BRIOSA", nome2, pas2);
-
-                var ExisteFamilia = BSO.Base.Familias.Existe(Familia);
-                if (ExisteFamilia)
+                string text = "BRIOSA";
+                string familia = ((FichaFamilias)this).Familia.Familia;
+                string descricao = ((FichaFamilias)this).Familia.Descricao;
+                string text2 = "SELECT COUNT(*) as num FROM [PRI" + text + "].[dbo].[Familias] WHERE Familia = '" + familia + "'";
+                if (((ProductContext)this).BSO.Consulta(text2).DaValor<int>("num") == 0)
                 {
-                    UpdateFamilia(this.Familia);
+                    string text3 = "INSERT INTO [PRI" + text + "].[dbo].[Familias] (Familia, Descricao) VALUES ('" + familia + "', '" + descricao + "')";
+                    ((ProductContext)this).BSO.DSO.ExecuteSQL(text3);
                 }
                 else
                 {
-                    CriarFamilia(this.Familia);
+                    string text4 = "UPDATE [PRI" + text + "].[dbo].[Familias] SET Descricao = '" + descricao + "' WHERE Familia = '" + familia + "'";
+                    ((ProductContext)this).BSO.DSO.ExecuteSQL(text4);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao replicar família: " + ex.Message);
-            }
-            finally
-            {
-                // Voltar para a empresa original (CASAPEDOME)
-                var nome = BSO.Contexto.UtilizadorActual;
-                var pas = BSO.Contexto.PasswordUtilizadorActual;
-                BSO.FechaEmpresaTrabalho();
-                BSO.AbreEmpresaTrabalho(StdBE100.StdBETipos.EnumTipoPlataforma.tpEvolution, "CASAPEDOME", nome, pas);
-            }
-        }
-
-        private void UpdateFamilia(BasBEFamilia familiaOriginal)
-        {
-            try
-            {
-                // Atualizar família existente
-                BSO.Base.Familias.Actualiza(familiaOriginal);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro ao atualizar família: " + ex.Message);
-            }
-        }
-
-        private void CriarFamilia(BasBEFamilia familiaOriginal)
-        {
-            try
-            {
-                // Criar nova família
-                BSO.Base.Familias.Actualiza(familiaOriginal);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro ao criar família: " + ex.Message);
+                MessageBox.Show("Erro ao replicar família para a empresa BRIOSA: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
     }
