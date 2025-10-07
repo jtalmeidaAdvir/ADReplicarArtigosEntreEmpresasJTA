@@ -26,3 +26,5 @@ C:\Users\jtalm\Desktop\adcasapedome\ADReplicarArtigosEntreEmpresasJTA\ADReplicar
 C:\Users\jtalm\Desktop\adcasapedome\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplic.D1786865.Up2Date
 C:\Users\jtalm\Desktop\adcasapedome\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplicarArtigosEntreEmpresasJTA.dll
 C:\Users\jtalm\Desktop\adcasapedome\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplicarArtigosEntreEmpresasJTA.pdb
+C:\Users\jtalm\Desktop\CAsapedome\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\bin\Debug\ErpDS100.dll
+C:\Users\jtalm\Desktop\CAsapedome\ADReplicarArtigosEntreEmpresasJTA\ADReplicarArtigosEntreEmpresasJTA\obj\Debug\ADReplic.D1786865.Up2Date
