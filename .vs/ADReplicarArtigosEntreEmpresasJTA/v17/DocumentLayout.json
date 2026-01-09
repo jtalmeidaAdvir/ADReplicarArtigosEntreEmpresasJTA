@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editorartigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|c:\\users\\jtalm\\source\\repos\\adreplicarartigosentreempresasjta\\adreplicarartigosentreempresasjta\\base\\editorfamilias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\adreplicarartigosentreempresasjta\\base\\editorfamilias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5C13953-AF3D-4275-985E-39BACEE7A3C4}|ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA.csproj|solutionrelative:adreplicarartigosentreempresasjta\\base\\editorfamilias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -38,8 +42,7 @@
               "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorFamilias.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAhwBIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:46:31.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T14:46:31.389Z"
             },
             {
               "$type": "Document",
@@ -49,7 +52,7 @@
               "RelativeDocumentMoniker": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
               "ToolTip": "C:\\Users\\jtalm\\source\\repos\\ADReplicarArtigosEntreEmpresasJTA\\ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
               "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorArtigos.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwCMAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwB8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T15:47:13.13Z",
               "EditorCaption": ""
@@ -64,8 +67,7 @@
               "RelativeToolTip": "ADReplicarArtigosEntreEmpresasJTA\\Base\\EditorDeVendas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T10:40:28.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T10:40:28.845Z"
             }
           ]
         }
